@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Practica</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+                Detalles de la foto.
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        Título <br>
+                        <input type="text" name="titulo" id="titlo" maxlength="100" required size="70"> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Descripción <br>
+                        <textarea cols="70" rows="6"> </textarea> <br>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        Continente <br>
+                        <select name="continente">
+                            <option value="elegirContinente" selected="selected">Escoger Continente</option>
+                            <option value="africa"> África </option>
+                            <option value="asia"> Asia </option>
+                            <option value="europa"> Europa </option>
+                            <option value="norteAmerica"> Norte Aérica </option>
+                            <option value="surAmerica"> Sur América </option>
+                        </select>
+                    </td>
+                    <td>
+                        Copyright? <br>
+                        <input type="radio" name="Copyright" id="reservados"> Todos los derechos reservados <br>
+                        <input type="radio" name="Copyright" id="creativecommons" checked> Creative Commons
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p> País <br>
+                            <select name="pais">
+                                <option value="elegirpais" selected="selected">País</option>
+                                <option value="canada"> Canadá </option>
+                                <option value="mexico"> México </option>
+                                <option value="usa"> Estados Unidos </option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="ciudad">Ciudad</label> <br>
+                    <input list="ciudad" id="ciudadSeleccionada" name="ciudadSeleccionada">
+                    <datalist id="ciudad" size="50">
+                        <option value="Calgary">
+                        <option value="Montreal">
+                        <option value="Toronto">
+                        <option value="Vancouver">
+                        <option value="Tlaxcala">
+                    </datalist>
+                        </p>
+                    </td>
+                    <td>
+                        Licencias Creative Commons <br>
+                        <input type="checkbox" name="licencia" value="atribucion">Atribución <br>
+                        <input type="checkbox" name="licencia" value="noComercial">No comercial <br>
+                        <input type="checkbox" name="licencia" value="noDerivativos">No hay trabajos derivativos <br>
+                        <input type="checkbox" name="licencia" value="compartir">Compartir por igual <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Acepto la licencia de software <input type="checkbox" name="aceptLicencia" id="al">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Califica esta foto: <br>
+                        <input type="number" name="calif" id="calif">
+                    </td>
+                    <td>
+                        Fecha de toma: <br>
+                        <input type="date" name="fecha" id="fecha">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Colección de color: <br>
+                        <input type="color" name="col" id="col">
+                    </td>
+                    <td>
+                        Hora de toma: <br>
+                        <input type="time" name="hora" id="hora">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <input type="submit" value="Enviar">
+                            <input type="submit" value="limpiar">
+                
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
