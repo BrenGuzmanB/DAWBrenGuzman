@@ -1,0 +1,63 @@
+body{
+    background-image: url(../images/art-background4.jpg);
+    background-size: cover;
+
+}
+header{
+    margin-left: 6em;
+    margin-right: 50em;
+    margin-bottom: 2em;
+    padding-bottom: 3.2em;
+    background-color: whitesmoke;
+}
+header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2em;
+    }
+header h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+
+article{
+    margin-left: 6em;
+    margin-top: 5em;
+    margin-right: 45em;
+    background-color: rgba(245, 245, 245, 0.5);
+    
+}
+
+article h2{
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color:rgba(245, 245, 245, 0.65);
+}
+article > h2 + p:first-of-type{
+    font-size: 1.2em;
+    font-family: Geneva, Verdana, sans-serif;
+    padding: 1em;
+  }
+
+article p+p{
+    font-family: sans-serif;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.484);
+}
+
+footer{
+    background-color: whitesmoke;
+    padding: 1em;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+    border-bottom: 1px dotted blue;
+}
+  
+ 
