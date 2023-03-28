@@ -1,0 +1,146 @@
+/* Encabezado */
+body {
+    font-size: 1em;
+    color: black;
+}
+
+header {
+    background-color: rgb(0, 179, 255);
+    /* Fondo azul cielo */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#t {
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    /* Tamaño de fuente más grande */
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+header nav {
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+    /* Espacio entre elementos */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    /* Tamaño de fuente normal */
+    color: white;
+    text-decoration: none;
+}
+
+/* Parte central */
+.contenedor-padre {
+    display: flex;
+    justify-content: space-between;
+
+}
+.centro{
+    margin: 2em 16em;
+    display: block;
+    overflow: auto;
+}
+.centro h2{
+font-size: 1.5em;
+font-weight: bold;
+}
+.flotantei{
+    float: left;
+    width: 50%;
+}
+.flotanted{
+    float: right;
+    width: 50%;  
+}
+.centro hr{
+    clear: both;
+}
+.centro p a{
+    display: inline-block;
+    background-color: rgb(0, 179, 255);
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 0.5em;
+}
+
+/* Izquierda */
+.izquierda{
+    position: absolute;
+    top: 5em; 
+    width: 14em;
+}
+#juan{
+    background-color: rgb(221, 230, 218);
+    color: rgb(61, 92, 51);
+    padding: 0.5em;
+    margin: 1.5em 0;
+}
+#menu-izquierda ul li{
+    display: block;
+    background-color: rgb(241, 241, 240);
+    padding: 0.5em;
+}
+#menu-izquierda ul li a{
+    padding-left: 0.5em;
+    font-size: 1.1em;
+}
+.mensajes{
+    margin-top: 1.5em;
+    background-color: rgb(241, 241, 240);
+    padding: 0.5em;
+    padding-bottom: 1em;
+}
+.mensajes h3{
+    background-color: lightblue;
+    padding: 0.7em;
+    font-size: 1.1em;
+}
+.mensajes ul li img{
+    float: left;
+    margin-right: 0.5em;
+}
+
+/* Derecha */
+.derecha{
+    position: absolute;
+    top: 5em; 
+    right: 0;
+    width: 14em;
+}
+.derecha .mensajes ul{
+    background-color: white;
+    padding: 0.5em;
+}
+.derecha .mensajes ul li{
+    list-style-type: none;
+    color: rgb(81, 80, 80);
+    clear: both;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.derecha .mensajes ul li span{
+    font-size: 2em;
+    float: left;
+    margin-right: 0.5em;
+    clear: both;
+}
+.derecha .mensajes ul li img{
+    float: left;
+    padding: 0.5em;
+}
